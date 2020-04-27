@@ -3,16 +3,20 @@
 //     document.getElementById("text").innerHTML = "This is really cool!";
 
 // })
+
 document.addEventListener("DOMContentLoaded", function () {
   
-            document.getElementById("text").innerHTML = "This is really cool!";
-    
-    })
+    document.getElementById("text").innerHTML = "This is really cool!";
 
-    let element = document.createElement("p");
-    element.setAttribute('id', 'test');
-    element.innerHTML = "testing"
-    document.body.appendChild(element); 
+})
+
+let element = document.createElement("p");
+element.setAttribute('id', 'test');
+element.innerHTML = "testing"
+document.body.appendChild(element); 
+
+
+
     
 // It is important to note that the DOMContentLoaded event fires once the initial HTML document finishes loading, but does not wait for CSS stylesheets or images to load. In situations where you need everything to completely load, use the load event instead.
 
